@@ -1,0 +1,34 @@
+[
+  {
+    "id": "ac7714bc-3276-4e1e-8a1f-c214a4ea175e",
+    "data": [
+      {
+        "text": "breakfast",
+        "alias": "timing",
+        "meta": "@timing",
+        "userDefined": false
+      },
+      {
+        "text": " menu",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530553402
+  },
+  {
+    "id": "845fe9d9-f66a-412c-a195-17050dba3781",
+    "data": [
+      {
+        "text": "breakfast",
+        "alias": "timing",
+        "meta": "@timing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530553402
+  }
+]

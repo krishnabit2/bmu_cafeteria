@@ -1,0 +1,36 @@
+{
+  "id": "e8fbd959-4f25-4807-9d36-18fabf37959a",
+  "parentId": "f60942f9-c781-4bc6-a181-fa5601c757de",
+  "rootParentId": "f60942f9-c781-4bc6-a181-fa5601c757de",
+  "name": "welcome_mess_menu - timings",
+  "auto": true,
+  "contexts": [
+    "welcome_mess_menu-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "welcome_mess_menu.welcome_mess_menu-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "c2b7fa51-2021-4be7-ad7c-e1e6749ed31e",
+          "required": true,
+          "dataType": "@timing",
+          "name": "timing",
+          "value": "$timing",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530554996,
+  "fallbackIntent": false,
+  "events": []
+}

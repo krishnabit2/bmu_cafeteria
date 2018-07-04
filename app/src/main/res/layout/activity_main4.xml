@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu"
+    tools:context=".Main4Activity">
+
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/edt1"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:text="Item 1"
+        android:textSize="25dp"
+        android:textColor="#0d0d0d"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:paddingLeft="40dp"
+        android:hint="Type here        "
+        android:textColorHint="#101206"
+
+        />
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/edt2"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="50dp"
+        android:text="Item 2"
+        android:textSize="25dp"
+        android:textColor="#080808"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt1"
+        android:layout_alignStart="@+id/edt1"
+        android:layout_below="@+id/edt1"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="40dp"
+        android:hint="Type here        "
+        android:textColorHint="#0e0e0c"
+        />
+
+    <TextView
+        android:id="@+id/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/edt3"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:text="Special"
+        android:textSize="25dp"
+        android:textColor="#0a0909"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+
+        />
+
+    <EditText
+        android:id="@+id/edt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/edt2"
+        android:layout_alignStart="@+id/edt2"
+        android:layout_below="@+id/edt2"
+        android:layout_marginTop="17dp"
+        android:paddingLeft="40dp"
+        android:hint="Type here        "
+        android:textColorHint="#090a08"     />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt3"
+        android:layout_marginTop="17dp"
+        android:text="    Add items  "
+        android:textSize="20dp"
+        android:textColor="#181818"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/shape"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        />
+
+
+
+</RelativeLayout>

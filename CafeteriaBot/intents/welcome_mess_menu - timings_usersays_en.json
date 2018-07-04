@@ -1,0 +1,62 @@
+[
+  {
+    "id": "059663f9-ea8b-4746-a803-432bae4dcd93",
+    "data": [
+      {
+        "text": "menu",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " of ",
+        "userDefined": false
+      },
+      {
+        "text": "breakfast",
+        "alias": "timing",
+        "meta": "@timing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530552901
+  },
+  {
+    "id": "19a200ef-e328-445b-9088-3fda36500713",
+    "data": [
+      {
+        "text": "breakfast",
+        "alias": "timing",
+        "meta": "@timing",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "menu",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530552901
+  },
+  {
+    "id": "8c97a3e5-75db-458d-8e92-4a4d344206aa",
+    "data": [
+      {
+        "text": "breakfast",
+        "alias": "timing",
+        "meta": "@timing",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1530552901
+  }
+]

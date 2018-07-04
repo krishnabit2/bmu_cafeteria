@@ -1,0 +1,74 @@
+{
+  "id": "779540ba-45f9-4204-868a-f87e53247eb6",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Welcome to Cafeteria Bot. Here I provide you the menu details of your mess\n    \u003cbreak time\u003d\"500ms\"/\u003e\n    Tell your choice of mess\n    \u003cbreak time\u003d\"500ms\"/\u003e\n    lbf \n     \u003cbreak time\u003d\"500ms\"/\u003e\n    or dcafe\n\u003c/speak\u003e",
+          "displayText": "Welcome to Cafeteria Bot. Here I provide you the menu details of your mess\nChoose Your choice of mess"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "LBF"
+            },
+            {
+              "title": "Dcafe"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "platform": "facebook",
+          "lang": "en",
+          "speech": "Welcome to Cafeteria Bot. Here we provides you the menu details of your mess"
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Please provide your mess details",
+          "replies": [
+            "LBF",
+            "Dcafe"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "slack": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530183123,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "890755117530",
+    "firebase_url": "https://golla-4c509.firebaseio.com",
+    "project_id": "golla-4c509",
+    "storage_bucket": "golla-4c509.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890755117530:android:275290c9a1bf3579",
+        "android_client_info": {
+          "package_name": "com.example.knootankumar.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890755117530-l5oi2snsaq5n2aipb3eir1upau7ksl1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.knootankumar.myapplication",
+            "certificate_hash": "7d23eb8a40aebe6875458fc965035534197d87ae"
+          }
+        },
+        {
+          "client_id": "890755117530-g8mav0d9jpsv84kv7hihc6h9pjm7q4i6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7YEA_ySncfLGWxhxu_t2v9EqG4ZyEb70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890755117530-g8mav0d9jpsv84kv7hihc6h9pjm7q4i6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

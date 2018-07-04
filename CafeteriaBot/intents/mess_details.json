@@ -1,0 +1,57 @@
+{
+  "id": "78bff00c-f558-4883-8b43-1aca42b3d6f4",
+  "name": "mess_details",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003e\n    Choose your mess\n     \u003cbreak time\u003d\"500ms\"/\u003e\n     LBF\n      \u003cbreak time\u003d\"500ms\"/\u003e\n      or \n      Dcafe\n\u003c/speak\u003e",
+          "displayText": "Choose your mess"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "LBF"
+            },
+            {
+              "title": "Dcafe"
+            }
+          ]
+        },
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Please choose your mess",
+          "replies": [
+            "lbf",
+            "dcafe"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530552543,
+  "fallbackIntent": false,
+  "events": []
+}

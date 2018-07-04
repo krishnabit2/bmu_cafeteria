@@ -1,0 +1,85 @@
+{
+  "id": "f60942f9-c781-4bc6-a181-fa5601c757de",
+  "name": "welcome_mess_menu",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "welcome_mess_menu-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b0141067-aa92-4a58-8dfc-7fdaa840014d",
+          "required": true,
+          "dataType": "@mess",
+          "name": "mess",
+          "value": "$mess",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 2,
+          "platform": "facebook",
+          "lang": "en",
+          "title": "Please provide the timings of mess. you want to know about",
+          "replies": [
+            "Breakfast",
+            "lunch",
+            "snacks",
+            "dinner"
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "customizeAudio": true,
+          "ssml": "\u003cspeak\u003ePlease provide the timings of mess. you want to know about\u003c/speak\u003e",
+          "displayText": "Please provide the timings of mess. you want to know about"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "suggestions": [
+            {
+              "title": "Breakfast"
+            },
+            {
+              "title": "Lunch"
+            },
+            {
+              "title": "Snacks"
+            },
+            {
+              "title": "Dinner"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1530555792,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+{
+  "description": "The user can request a joke.",
+  "language": "en",
+  "shortDescription": "The agent tells jokes",
+  "examples": "User: Do you know any jokes?\nUser: Make me laugh.\n\nUser: Tell me a witty joke.\nUser: Another one.",
+  "activeAssistantAgents": [],
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": true,
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [
+      {
+        "intentId": "78bff00c-f558-4883-8b43-1aca42b3d6f4",
+        "signInRequired": false
+      },
+      {
+        "intentId": "f60942f9-c781-4bc6-a181-fa5601c757de",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V1",
+    "autoPreviewEnabled": true,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/New_York",
+  "webhook": {
+    "url": "https://us-central1-golla-4c509.cloudfunctions.net/intent",
+    "headers": {
+      "": ""
+    },
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": false,
+  "customClassifierMode": "use.after",
+  "mlMinConfidence": 0.5,
+  "supportedLanguages": [],
+  "onePlatformApiVersion": "v1legacy"
+}
